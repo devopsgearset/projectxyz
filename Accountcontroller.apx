@@ -6,6 +6,7 @@ public class AccountsController
 		List<Account> lstAccount=[SELECT Id,Name FROM Account];	
 		system.debug('Account List to be display city based'+); //change from vscode
 		system.debug('Account::'+lstAcount);
+		system.debug('Account List to display city based'+); //change from vscode
 		return lstAccount;
 	}
 }
